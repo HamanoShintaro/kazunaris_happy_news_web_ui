@@ -1,27 +1,20 @@
 // import React from 'react';
 import React, { Component } from 'react';
-import Timeline from './components/Timeline';
-// class App extends Component {
-
-//     render() {
-//       return (
-//         <div>
-//           <h1>Fire</h1>
-//           <h2>Sample data.</h2>
-//           <Timeline />
-//         </div>
-//       )
-//     }
-// }
-
+import Header from './components/Header';
+import Index from './pages/index';
 class App extends Component {
 
   render() {
     return (
       <div>
-        <h1>Fire</h1>
-        <h2>Sample data.</h2>
-        <Timeline />
+        <head>
+          <meta
+            name="viewport"
+            content="minimum-scale=1, initial-scale=1, width=device-width"
+          />
+        </head>
+        <Header />
+        <Index />
       </div>
     );
   }
